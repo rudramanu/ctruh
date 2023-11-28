@@ -1,0 +1,54 @@
+.post-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.post-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.post-card hr {
+  border: 0.5px solid #ddd;
+  margin: 15px 0;
+}
+
+.post-card button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-card button:hover {
+  background-color: #2980b9;
+}
+
+/* Style for the "Return to home" link */
+.post-details a {
+  text-decoration: none;
+  color: #3498db;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.post-details a:hover {
+  color: #2980b9;
+}

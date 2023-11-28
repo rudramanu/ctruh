@@ -1,0 +1,40 @@
+.comment-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.user-info {
+  margin-right: 10px;
+}
+
+.user-info h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+.comment-content {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.comment-content p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.4;
+  color: #000000; /* Change the color as per your preference */
+}
+
+/* Add a subtle box shadow for a card-like effect */
+.comment-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 12px;
+  background-color: rgb(
+    221,
+    221,
+    221
+  ); /* Change the background color as per your preference */
+}
